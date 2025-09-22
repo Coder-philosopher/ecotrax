@@ -60,7 +60,7 @@ const SolutionSection = () => {
               <h3 className="text-lg font-semibold mb-3 text-white">
                 {feature.title}
               </h3>
-              <p className="text-bamboo-beige/90 text-sm leading-relaxed">
+              <p className="text-white/95 text-lg leading-relaxed">
                 {feature.description}
               </p>
             </Card>
@@ -83,7 +83,7 @@ const SolutionSection = () => {
               <div className="font-semibold text-white mb-1">
                 {benefit.label}
               </div>
-              <div className="text-sm text-white/80">
+              <div className="text-white/95 text-lg">
                 {benefit.description}
               </div>
             </div>

@@ -6,7 +6,7 @@ const HeroSection = () => {
     <section className="relative min-h-screen flex items-center justify-center bg-gradient-hero overflow-hidden" id="hero" >
       {/* Background Image */}
       <div 
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-40"
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-95"
         style={{ backgroundImage: `url(${heroImage})` }}
       />
       
@@ -19,10 +19,12 @@ const HeroSection = () => {
           <h1 className="text-5xl md:text-7xl font-bold mb-6 text-white leading-tight">
             Ecotrax
           </h1>
-          <p className="text-xl md:text-2xl mb-4 text-bamboo-beige font-medium">
-            Building Smart, Green Roads for Remote India
+          <p className="text-2xl md:text-3xl font-bold  mb-4 text-white ">
+            Building Smart, Green Roads for  
+            <span className="text-green-950"> Remote </span>
+            India
           </p>
-          <p className="text-lg md:text-xl mb-10 text-white/90 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-lg md:text-xl font-bold mb-10 text-white max-w-3xl mx-auto leading-relaxed">
             Revolutionary bamboo-reinforced modular road panels that transform terrain, 
             reduce plastic waste, and connect rural communities sustainably.
           </p>
